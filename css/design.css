@@ -1,0 +1,55 @@
+/* Accounting Calculator Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    margin: 50px auto;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+  .display {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .display #result {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 3px;
+    background-color: #d9d9d9;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #bfbfbf;
+  }
+  
+  button:active {
+    background-color: #a6a6a6;
+  }
+  
